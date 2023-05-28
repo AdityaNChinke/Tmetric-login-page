@@ -1,0 +1,175 @@
+* {
+  /* global size fixing */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main1 {
+  /* border: 2px solid red; */
+  height: 900px;
+  width: 50%;
+  margin: auto;
+}
+
+.logo1 {
+  /* border: 2px solid red; */
+  margin-top: 50px;
+  margin-left: 32%;
+  margin-right: 24px;
+}
+
+.upperpart1 {
+  background-color: #f2f5fc;
+  border: 1px solid rgb(167, 167, 167);
+  /* border: 2px solid red; */
+  height: 30%;
+  width: 80%;
+  margin: auto;
+}
+
+.lowerside1 {
+  border: 1px solid rgb(167, 167, 167);
+  height: 70%;
+  width: 80%;
+  margin: auto;
+}
+
+#login1 {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  /* border: 2px solid red; */
+  margin-left: 60px;
+  margin-top: 50px;
+  margin-right: 150px;
+  text-align: center;
+  height: 50px;
+  width: 400px;
+  font-size: xx-large;
+}
+
+#inputbox {
+  width: 50%;
+  /* border: 3px solid violet; */
+  margin-left: 20px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+#namebox {
+  width: 170%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(167, 167, 167);
+
+}
+#emailbox {
+  width: 170%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(167, 167, 167);
+
+}
+#passwordbox {
+  width: 170%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(167, 167, 167);
+}
+#email1 {
+  margin-top: 20px;
+  /* border: 1px solid rgb(167, 167, 167); */
+}
+#pass1 {
+  margin-top: 20px;
+  /* border: 1px solid rgb(167, 167, 167); */
+}
+label {
+  color: rgb(161, 160, 160);
+}
+
+#check {
+  /* border: 2px solid red; */
+  margin-top: 20px;
+  width:200%
+}
+#labelpolicy {
+  color: black;
+}
+
+#button2{
+  /* border: 2px solid red;  */
+  margin-top: 20px;
+  width: 170%;
+}
+
+#button2 button{
+  
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(100, 100, 246);
+}
+
+#button2 button:hover {
+  background-color: rgb(41, 41, 242);
+  transition: 0.5sec;
+}
+#button3{
+display: flex;
+/* border: 2px solid red;  */
+  margin-top: 20px;
+  width: 170%;
+}
+
+.divert{
+  background-color:transparent;
+width: 170%;
+margin-top: 20px;
+height: 30px;
+border-radius: 5px;
+}
+#button3 button:hover{
+  background-color:rgb(222, 222, 222);
+}
+#button4 button:hover{
+  background-color:rgb(222, 222, 222);
+}
+#button5 button:hover{
+  background-color:rgb(222, 222, 222);
+}
+#sign1{
+  /* border: 2px solid red;  */
+  margin-top: 20px;
+  height:20px;
+  width:250px;
+}
+
+
+/* #name1{
+    width: 300px;
+    /* margin-left: 20px; */
+/* border: 2px solid red; */
+/* margin-right: 80px; */
+/* } */
+*/
+
+/* #email2{
+    width: 300px;
+}
+
+#password2{
+    width: 300px;
+}
+
+#check2{
+    width: 300px;
+}  */
+
+
+.input1 {
+  width: 20px;
+  /* border: 3px solid violet; */
+}
+

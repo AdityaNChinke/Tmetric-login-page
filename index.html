@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tmetric</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto+Slab:wght@300;400&family=Ysabeau:wght@200&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="upperpart">
+            <div class="logo">
+                <img src="images/tmetric_logo_and_text.svg" alt="">
+            </div>
+            <div id="login">
+                <span>Log into TMetric</span>
+            </div>
+        </div>
+        <div class="lowerside">
+            <div id="go">
+             <form class="input" action="https://httpbin.org/get" method="get">
+                <p>
+                <div id="email">
+                    <label for="email">Email</label>
+                    <input type="email" class="input-field" id="email1" id="email" name="email"
+                        placeholder="johnsmith@gmail.com" required>
+                    </p>
+                </div>
+                <div id="pass">
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="text" id="pass1" name="password" id="password" placeholder="Enter your password"
+                            required>
+                    </p>
+                </div>
+            </div>
+            <div id="notgo">
+                <div class="google" id="signbutton">
+               <button>Log In</button>
+                </div>
+                <br>
+                <br>
+                <hr>
+                <div  id="googlebutton">
+               <button ><img src="images/google_logo.svg" alt="">
+                &nbsp;&nbsp; Sign Up with Google</button>
+               </div>
+                <div id="micro">
+                    <button><img src="images/microsoft_logo.svg" alt="">&nbsp;&nbsp; Sign Up with Microsoft</button>
+                </div>
+                <div  id="applebutton">
+               <button><img src="images/apple_logo.svg" alt="">&nbsp;&nbsp; Sign Up with Apple</button>
+            </div>
+            <br>
+            <hr>
+            <div id="sig"><a href="signup.html">Sign Up</a></div>  
+            </div>  
+            
+              </form>
+           
+             
+           
+       </div>
+   </div>
+</body>
+
+</html>
